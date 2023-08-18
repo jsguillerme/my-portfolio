@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <section className="max-w-[1124px] w-full h-full max-sm:break-words mx-auto flex flex-col items-start justify-center gap-4 text-white py-48 px-8 max-sm:py-0">
-      <h1 className="bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent text-5xl font-sans font-bold p-2 animate-fade-right animate-once animate-ease-in-out">
+    <section className="max-w-[1124px] w-full h-full max-sm:break-words mx-auto flex flex-col items-start justify-center gap-4 text-white">
+      <h1 className="bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent text-5xl font-sans font-bold animate-fade-right animate-once animate-ease-in-out">
         Guilherme Andrade
       </h1>
 

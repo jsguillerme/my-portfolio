@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <div className="max-w-[1124px] mx-auto w-full h-36 max-h-32 px-8 max-sm:p-4 flex items-center justify-between max-sm:h-fit max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-4">
+    <div className="max-w-[1124px] mx-auto w-full h-32 max-h-32 px-8 max-sm:p-4 flex items-center justify-between max-sm:h-fit max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-4">
       <a href="/" title="Voltar ao início">
         <img src="/logo-gradient.png" width={32} height={32} alt="" />
       </a>

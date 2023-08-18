@@ -64,7 +64,7 @@ export default function ProjectPage() {
         <img
           src="/dots.png"
           alt="points"
-          className="absolute h-[600px] w-[600px] opacity-40 right-0 animate-spin animate-duration-[12000ms]"
+          className="absolute h-[600px] w-[600px] opacity-40 right-0 animate-spin animate-duration-[12000ms] max-sm:hidden"
         />
       </div>
     </section>
