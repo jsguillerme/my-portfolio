@@ -2,12 +2,18 @@
 
 export default function AboutMe() {
   return (
-    <section className="max-w-[1124px] w-full h-full dark:bg-zinc-900 mt-10 max-sm:break-words mx-auto flex flex-col items-start justify-start gap-4 text-white animate-fade-right animate-once animate-ease-in-out">
-      <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-purple-700 bg-clip-text text-transparent px-6 ">
+    <section className="max-w-[1124px] w-full h-full mt-10 max-sm:break-words mx-auto flex flex-col items-start justify-start gap-4 text-white animate-fade-right animate-once animate-ease-in-out font-sans">
+      <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-800 bg-clip-text text-transparent px-6 ">
         Sobre mim.
       </h1>
-      <div className="w-full dark:bg-zinc-900 flex max-sm:flex-wrap items-start justify-center gap-10 dark:text-zinc-400 text-zinc-800 font-sans text-lg py-10 px-6">
-        <img src="/profile.jpg" alt="" width={416} height={416} />
+      <div className="w-full bg-zinc-950 flex max-sm:flex-wrap items-start justify-center gap-10 dark:text-zinc-400 text-zinc-800 font-sans text-lg py-10 px-6">
+        <img
+          src="/profile.jpg"
+          alt=""
+          width={416}
+          height={416}
+          className="rounded-lg"
+        />
         <p>
           Meu nome é Guilherme, tenho 22 anos.
           <br />

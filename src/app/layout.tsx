@@ -28,7 +28,7 @@ export default function RootLayout({
     <>
       <html lang="en">
         <body className={`${inter.variable} ${hanken.variable}`}>
-          <main className="w-full h-screen flex flex-col dark:bg-zinc-900 bg-zinc-100">
+          <main className="w-full h-screen flex flex-col dark:bg-zinc-950 bg-zinc-100">
             <Header />
             {children}
           </main>

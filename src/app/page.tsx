@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <section className="max-w-[1124px] w-full h-full dark:bg-zinc-900 max-sm:break-words mx-auto flex flex-col items-start justify-center gap-4 text-white py-48 px-8 max-sm:py-0">
+    <section className="max-w-[1124px] w-full h-full max-sm:break-words mx-auto flex flex-col items-start justify-center gap-4 text-white py-48 px-8 max-sm:py-0">
       <h1 className="bg-gradient-to-r from-blue-400 to-purple-700 bg-clip-text text-transparent text-5xl font-sans font-bold p-2 animate-fade-right animate-once animate-ease-in-out">
         Guilherme Andrade
       </h1>
@@ -13,7 +13,7 @@ export default function Home() {
         </span>
       </span>
 
-      <button className="font-mono flex items-center justify-center gap-2 font-bold dark:hover:bg-zinc-800 hover:bg-slate-500/80 transition-all duration-300 rounded-md p-2 animate-fade-right animate-once animate-ease-in-out text-zinc-900 dark:text-white">
+      <button className="font-mono flex items-center justify-center gap-2 font-bold dark:hover:bg-zinc-700/50 hover:bg-slate-500/80 transition-all duration-300 rounded-md p-3 animate-fade-right animate-once animate-ease-in-out text-zinc-900 dark:text-white">
         Pressione{' '}
         <kbd className="bg-gray-400 px-2 rounded-md text-black hover:bg-gray-300">
           Ctrl
