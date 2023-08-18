@@ -5,7 +5,7 @@ export default function ProjectPage() {
         Experiências.
       </h1>
 
-      <div className="flex flex-col items-start justify-center gap-16 h-2/3">
+      <div className="flex flex-col items-start justify-center gap-16 h-2/3 max-sm:h-full relative w-full">
         <div className="border-l-8 border-l-zinc-700 rounded-tl-md rounded-bl-md flex flex-col gap-3 pl-3">
           <h2 className="text-lg font-semibold">QA Junior 3</h2>
           <span className="text-sm flex items-center gap-2">
@@ -60,6 +60,12 @@ export default function ProjectPage() {
             <strong>9 meses</strong>
           </span>
         </div>
+
+        <img
+          src="/dots.png"
+          alt="points"
+          className="absolute h-[600px] w-[600px] opacity-40 right-0 animate-spin animate-duration-[8000ms]"
+        />
       </div>
     </section>
   )
