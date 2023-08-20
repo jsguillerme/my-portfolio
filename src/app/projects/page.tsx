@@ -55,10 +55,10 @@ export default async function ProjectsPage() {
         <Link
           href="https://github.com/jsguillerme?tab=repositories"
           target="_blank"
-          className="text-sm text-zinc-400 flex items-center justify-center gap-1 hover:underline hover:underline-offset-4"
+          className="text-sm dark:text-zinc-400 text-zinc-800 flex items-center justify-center gap-1 hover:underline hover:underline-offset-4"
         >
           Visit my github
-          <ExternalLink width={16} height={16} className="text-zinc-400" />
+          <ExternalLink width={16} height={16} />
         </Link>
       </footer>
     </section>

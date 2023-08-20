@@ -13,7 +13,7 @@ export default function Home() {
         </span>
       </span>
 
-      <button className="font-mono flex items-center justify-center gap-2 font-bold dark:hover:bg-zinc-700/50 hover:bg-slate-500/80 transition-all duration-300 rounded-md p-3 animate-fade-right animate-once animate-ease-in-out text-zinc-900 dark:text-white">
+      {/* <button className="font-mono flex items-center justify-center gap-2 font-bold dark:hover:bg-zinc-700/50 hover:bg-slate-500/80 transition-all duration-300 rounded-md p-3 animate-fade-right animate-once animate-ease-in-out text-zinc-900 dark:text-white">
         Pressione{' '}
         <kbd className="bg-gray-400 px-2 rounded-md text-black hover:bg-gray-300">
           Ctrl
@@ -22,7 +22,7 @@ export default function Home() {
           K
         </kbd>
         para iniciar
-      </button>
+      </button> */}
     </section>
   )
 }

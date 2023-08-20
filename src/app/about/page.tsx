@@ -6,7 +6,7 @@ export default function AboutMe() {
       <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-800 bg-clip-text text-transparent px-6 ">
         Sobre mim.
       </h1>
-      <div className="w-full bg-zinc-950 flex max-sm:flex-wrap items-start justify-center gap-10 dark:text-zinc-400 text-zinc-800 font-sans text-lg py-10 px-6">
+      <div className="w-full dark:bg-zinc-950 flex max-sm:flex-wrap items-start justify-center gap-10 dark:text-zinc-400 text-zinc-800 font-sans text-lg py-10 px-6">
         <img
           src="/profile.jpg"
           alt=""

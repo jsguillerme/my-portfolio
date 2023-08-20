@@ -5,21 +5,21 @@ export default function ProjectPage() {
         Experiências.
       </h1>
 
-      <div className="flex flex-col items-start justify-center gap-16 h-3/4 max-sm:h-full relative w-full">
+      <div className="flex flex-col items-start justify-center gap-16 h-3/4 max-sm:h-full relative w-full dark:text-zinc-300 text-zinc-700">
         <div className="border-l-8 border-l-zinc-700 rounded-tl-md rounded-bl-md flex flex-col gap-3 pl-3">
           <h2 className="text-lg font-semibold">QA Junior 3</h2>
           <span className="text-sm flex items-center gap-2">
             <a
               href="#"
-              className="underline underline-offset-2 text-zinc-300 font-bold"
+              className="underline underline-offset-2 dark:text-zinc-300 text-zinc-700 font-bold"
             >
               TALLOS
             </a>
             <p className="w-1 h-1 bg-zinc-400 rounded-full"></p>{' '}
-            <p className="text-zinc-400">Fortaleza, CE</p>
+            <p className="dark:text-zinc-400 text-zinc-700">Fortaleza, CE</p>
           </span>
-          <span className="text-sm text-zinc-400 flex items-center gap-2">
-            abr 2023 -- Momento{' '}
+          <span className="text-sm dark:text-zinc-400 text-zinc-600 flex items-center gap-2">
+            abr 2023 - Momento{' '}
             <p className="w-1 h-1 bg-zinc-400 rounded-full"></p>{' '}
             <strong>4 meses</strong>
           </span>
@@ -29,15 +29,15 @@ export default function ProjectPage() {
           <span className="text-sm flex items-center gap-2">
             <a
               href="#"
-              className="underline underline-offset-2 text-zinc-300 font-bold"
+              className="underline underline-offset-2 dark:text-zinc-300 text-zinc-700 font-bold"
             >
               TALLOS
             </a>
             <p className="w-1 h-1 bg-zinc-400 rounded-full"></p>{' '}
-            <p className="text-zinc-400">Fortaleza, CE</p>
+            <p className="dark:text-zinc-400 text-zinc-700">Fortaleza, CE</p>
           </span>
-          <span className="text-sm text-zinc-400 flex items-center gap-2">
-            jul 2022 -- abr 2023{' '}
+          <span className="text-sm dark:text-zinc-400 text-zinc-600 flex items-center gap-2">
+            jul 2022 - abr 2023{' '}
             <p className="w-1 h-1 bg-zinc-400 rounded-full"></p>{' '}
             <strong>9 meses</strong>
           </span>
@@ -47,15 +47,15 @@ export default function ProjectPage() {
           <span className="text-sm flex items-center gap-2">
             <a
               href="#"
-              className="underline underline-offset-2 text-zinc-300 font-bold"
+              className="underline underline-offset-2 dark:text-zinc-300 text-zinc-700 font-bold"
             >
               TALLOS
             </a>
             <p className="w-1 h-1 bg-zinc-400 rounded-full"></p>{' '}
-            <p className="text-zinc-400">Fortaleza, CE</p>
+            <p className="dark:text-zinc-400 text-zinc-700">Fortaleza, CE</p>
           </span>
-          <span className="text-sm text-zinc-400 flex items-center gap-2">
-            nov 2021 -- jul 2022{' '}
+          <span className="text-sm dark:text-zinc-400 text-zinc-600 flex items-center gap-2">
+            nov 2021 - jul 2022{' '}
             <p className="w-1 h-1 bg-zinc-400 rounded-full"></p>{' '}
             <strong>9 meses</strong>
           </span>
