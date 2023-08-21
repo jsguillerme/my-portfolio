@@ -1,6 +1,4 @@
 import CardRepo from '@/components/CardRepo'
-import { ExternalLink } from 'lucide-react'
-import Link from 'next/link'
 
 async function GetSomeRepos() {
   const oneRepo = await fetch(
