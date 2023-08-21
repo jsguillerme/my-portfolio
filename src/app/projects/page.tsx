@@ -45,22 +45,11 @@ export default async function ProjectsPage() {
         Projetos.
       </h1>
 
-      <div className="w-full flex flex-wrap gap-6 justify-center items-center mt-10">
+      <div className="w-full flex gap-4 flex-wrap justify-center items-centermy-4 dark:bg-zinc-950 ">
         {repos.map((repo) => {
           return <CardRepo key={repo.id} repo={repo} />
         })}
       </div>
-
-      <footer className="self-center">
-        <Link
-          href="https://github.com/jsguillerme?tab=repositories"
-          target="_blank"
-          className="text-sm dark:text-zinc-400 text-zinc-800 flex items-center justify-center gap-1 hover:underline hover:underline-offset-4"
-        >
-          Visit my github
-          <ExternalLink width={16} height={16} />
-        </Link>
-      </footer>
     </section>
   )
 }

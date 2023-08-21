@@ -13,7 +13,7 @@ interface CardRepoProps {
 
 export default function CardRepo({ repo }: CardRepoProps) {
   return (
-    <div className="w-[440px] h-36 dark:bg-slate-600/30 bg-slate-300 rounded-md border dark:border-zinc-500/50 flex flex-col items-center justify-start p-4 font-mono gap-2 dark:hover:bg-slate-600/40 hover:bg-slate-400/50 transition-all duration-300 cursor-pointer">
+    <div className="w-[440px] h-36 mb-4 dark:bg-slate-600/30 bg-slate-300 rounded-md border dark:border-zinc-500/50 flex flex-col items-center justify-start p-4 font-mono gap-2 dark:hover:bg-slate-600/40 hover:bg-slate-400/50 transition-all duration-300 cursor-pointer">
       <div className="w-full flex items-center justify-between">
         <div className="w-full flex items-center justify-start gap-2">
           <BookMarked width={16} height={16} className="text-zinc-500" />
